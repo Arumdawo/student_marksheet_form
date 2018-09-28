@@ -1,0 +1,113 @@
+/* 
+* PROJECT NAME: STUDENT MARKSHEET 
+* AUTHOR NAME: ArumdawoCode
+* AUTHOR URL: github.com/ArumdawoCode
+* DATE: 2018-08-16
+*/
+
+body{
+    background: url('../images/2.jpg') no-repeat center fixed;
+    overflow-y: hidden;
+}
+a{
+    text-decoration: none;
+}
+#mark_form{
+    color: floralwhite;
+}
+.section-padding{
+    padding: 60px 0px;
+}
+.header-h{
+    font-size: 4em;
+    color: white;
+    font-family: 'Lobster', cursive;
+    
+}
+.header-p{
+    color: white;
+    font-size: 2em;
+}
+.msg-row{
+    margin-top: 56px;
+}
+.media{
+    margin-top: 30px;
+}
+.media-body .media-left .media-right{
+    display: table-cell;
+    vertical-align: top;
+}
+.media-body{
+    margin-left: 10px;
+    padding-left: 13px;
+}
+/* social media round circle */
+.bg-14{
+    background-color: #ccdb38;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+/* social media round circle */
+.white-bg{
+    color: white;
+    font-size: 2em;
+    margin-top: 0;
+}
+.white-sm{
+    color: white;
+    font-size: 1.3em;
+    margin-bottom: 1px;
+}
+.white-sm a{
+    text-decoration: none;
+    color: white;
+}
+/* form */
+/* .newinput .form-group {
+    margin: 8px 0 9px !important;
+    padding-bottom: 10px;
+} */
+/* .contact-form .form-control {
+    color: #000 !important;
+    font-size: 16px;
+    font-weight: normal;
+    height: 38px;
+    line-height: 1.42857;
+    padding: 7px 0;
+}
+.contact-form {
+    margin: 8px 0 9px !important;
+    padding-bottom: 10px;
+}
+.contact-form textarea.form-control {
+    color: #000 !important;
+    height: auto;
+}
+.contacts-btn {
+    background-color:  #FFB03B !important;
+    color: #ffffff !important;
+    width: 170px;
+    height: 54px;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    text-transform: capitalize;
+    border: 0px;
+    color: #000 !important;
+} */
+
+/* form */
+
+/* button */
+button{
+    border-radius: 50px;
+}
+.btn-lg{
+    border-radius: 50px;
+}
+.button-submit{
+}
+/* button */

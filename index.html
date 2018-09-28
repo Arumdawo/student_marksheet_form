@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- ================================================ 
+            PROJECT NAME: STUDENT MARKSHEET 
+            TECHNOLOGIES: HTML, CSS, BOOTSTRAP, PHP
+            AUTHOR NAME: ArumdawoCode
+            AUTHOR URL: github.com/Arumdawo
+        ================================================= -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Student Marksheet | ArumdawoCode</title>
+        <meta name="description" content="ArumdawoCode">
+        <meta name="keywords" content="ArumdawoCode">
+
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    </head>
+    <body>
+        <!-- marks form -->
+        <section id="mark_form" class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1 class="header-h">ArumdawoCode</h1>
+                        <p class="header-p">Student Marksheet Form</p>
+                    </div>
+                </div>
+                <!-- social media links -->
+                <div class="row msg-row">
+                    <div class="col-md-4 col-sm-4 mr-15">
+                        <div class="media">
+                            <!-- hour icon -->
+                            <div class="media-left">
+                                <div class="social-media bg-14 text-center">
+                                    <span class="hour-icon fa fa-clock-o"></span>
+                                </div>
+                            </div>
+                            <!-- hour icon -->
+
+                            <!-- social media links -->
+                            <div class="media-body">
+                                <h4 class="white-bg regular">Social Media Links</h4>
+                                <p class="white-sm regular bg-20 alt-p">
+                                    Github:<a href="http://github.com/arumdawo" target="_blank"> ArumdawoCode</a>
+                                </p>
+                                <p class="white-sm regular bg-20 alt-p">
+                                    Twitter:<a href="https://twitter.com/aminatdammy" target="_blank"> ArumdawoCode</a>
+                                </p>
+                                <p class="white-sm regular bg-20 alt-p">
+                                    Linkedln:<a href="https://linkedin.com/in/oluwadamilolami-adeogun-a49562b3/" target="_blank"> ArumdawoCode</a>
+                                </p>
+                            </div>
+                            <!-- social media links -->
+                        </div>
+                    <div class="media">
+                        <!-- hour icon -->
+                        <div class="media-left">
+                            <div class="email bg-14 text-center">
+                                <span class="hour-icon fa fa-clock-o"></span>
+                            </div>
+                        </div>
+                        <!-- hour icon -->    
+                        <!-- email link -->
+                        <div class="media-body">
+                            <h4 class="white-bg regular">Email Address</h4>
+                            <p class="white-sm regular bg-20 alt-p">
+                                Gmail:<a href="mailto:aminatstudies@gmail.com" target="_blank"> ArumdawoCode</a>
+                            </p>
+                        </div>
+                        <!-- email link -->
+                    </div>
+                    </div>
+                    <!--form  -->
+                    <div class="col-md-8 col-sm-8">
+                        <form action="result.php" method="post" role="form" class="contactForm">
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <p class="form-p">Student's Personal Details</p>
+                                </div>              
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-4 col-sm-4">
+                                    <label for="sname">Last Name</label>
+                                    <input type="text" class="form-control" id="sname" placeholder="Last Name" required data-msg="This field is required">
+                                </div>
+                                <div class="form-group col-md-4 col-sm-4">
+                                    <label for="fname">First Name</label>
+                                    <input type="text" class="form-control" id="fname" placeholder="First Name" required data-msg="This field is required">
+                                </div>
+                                <div class="form-group col-md-4 col-sm-4">
+                                    <label for="oname">Other Names</label>
+                                    <input type="text" class="form-control" id="oname" placeholder="Other Names" required data-msg="This field is required">
+                                </div>                  
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-4 col-sm-4">
+                                    <label for="sex">Sex</label>
+                                    <select id="sex" class="form-control" placeholder="Sex" required data-msg="This field is required">
+                                        <option selected>Choose...</option>
+                                        <option>Male</option>
+                                        <option>Female</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-4 col-sm-4">
+                                    <label for="dob">Date Of Birth</label>
+                                    <input type="date" class="form-control" id="dob" placeholder="Date Of Birth" required data-msg="This field is required">
+                                </div> 
+                                <div class="form-group col-md-4 col-sm-4">
+                                    <label for="status">Marital Status</label>
+                                    <select id="status" class="form-control" placeholder="Marital Status" required data-msg="This field is required">
+                                        <option selected>Choose...</option>
+                                        <option>Single</option>
+                                        <option>Married</option>
+                                        <option>Divorced</option>
+                                    </select>
+                                </div>                
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <p class="form-p">Subjects</p>
+                                </div>              
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-2 col-sm-2">
+                                    <label for="maths">Mathematics</label>
+                                    <input type="text" class="form-control" id="maths" placeholder="Mathematics" required data-msg="This field is required">
+                                </div>
+                                <div class="form-group col-md-2 col-sm-2">
+                                    <label for="english">English</label>
+                                    <input type="text" class="form-control" id="english" placeholder="English" required data-msg="This field is required">
+                                </div>
+                                <div class="form-group col-md-2 col-sm-2">
+                                    <label for="physics">Physics</label>
+                                    <input type="text" class="form-control" id="physics" placeholder="Physics" required data-msg="This field is required">
+                                </div>
+                                <div class="form-group col-md-2 col-sm-2">
+                                    <label for="chemistry">Chemistry</label>
+                                    <input type="text" class="form-control" id="chemistry" placeholder="Chemistry" required data-msg="This field is required">
+                                </div> 
+                                <div class="form-group col-md-2 col-sm-2">
+                                    <label for="biology">Biology</label>
+                                    <input type="text" class="form-control" id="biology" placeholder="Biology" required data-msg="This field is required">
+                                </div>   
+                                <div class="form-group col-md-2 col-sm-2">
+                                    <label for="compt">Computer</label>
+                                    <input type="text" class="form-control" id="compt" placeholder="Computer" required data-msg="This field is required">
+                                </div>                 
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group col-md-6 col-sm-6 button-submit">
+                                    <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                                </div>
+                                <div class="form-group col-md-6 col-sm-6 button-reset">
+                                    <button type="reset" class="btn btn-primary btn-lg">Reset</button>
+                                </div>
+                            </div>
+                        </form>
+                     </div>
+                     </div>
+                 </div>
+             </div>
+                    <!-- form -->
+            </div>
+            <!-- social media links -->
+        </section>
+        <!-- / marks form -->
+    </body>
+</html>
